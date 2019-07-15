@@ -8,112 +8,12 @@
     "engines": {
         "node": ">=8.9.1"
     },
-    "scripts": {
-        "start": "node index.js"
-    },
+   
 	"dependencies": {
-
-"@azure/cosmos": 
-"^2.1.2",
-
-"@azure/event-hubs": 
-"^1.0.8",
-
-"@sentry/node": 
-"^4.6.4",
-
-"app-root-path": 
-"^2.0.1",
-
-"azure-storage": 
-"^2.10.2",
-
-"babel-eslint": 
-"^8.2.2",
-
-"bluebird": 
-"^3.5.1",
-
-"chai": 
-"^4.1.2",
-
-"cors": 
-"^2.8.4",
-
-"debug": 
-"^4.0.1",
-
-"documentdb": 
-"^1.15.2",
-
-"dotenv": 
-"^7.0.0",
-
-"eslint": 
-"^4.19.1",
-
-"eslint-config-airbnb-base": 
-"^12.1.0",
-
-"eslint-config-prettier": 
-"^2.9.0",
-
-"eslint-config-rallycoding": 
-"^3.2.0",
-
-"eslint-plugin-import": 
-"^2.9.0",
-
-"express": 
-"^4.16.3",
-
-"helmet": 
-"^3.12.0",
-
-"mocha": 
-"^5.0.5",
-
-"moment": 
-"^2.22.2",
-
-"mongodb": 
-"^3.1.6",
-
-"morgan": 
-"^1.9.0",
-
-"mysql2": 
-"^1.6.1",
-
-"node-common": 
-"git+https://github.com/arunkumarpalaniappan/node-common.git",
-
-"prettier": 
-"^1.11.1",
-
-"redis": 
-"^2.8.0",
-
-"sequelize": 
-"^5.1.0",
-
-"sinon": 
-"^4.4.8",
-
-"sinon-test": 
-"^2.1.3",
-
-"supertest": 
-"^3.0.0",
-
-"uuid": 
-"^3.3.2",
-
-"validate.js": 
-"^0.12.0",
-
-"validator": 
-"^9.4.1"
-
-}
+	  "express": "3.0",
+	  "mongodb": "3.1.0",
+	  "winston": "3.2.1",
+	  "winston-azure-blob-transport" : "0.3.2"
+	  
+  }
 }
