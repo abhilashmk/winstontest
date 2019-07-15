@@ -38,9 +38,9 @@ var logger = new (winston.Logger)({
 
         containerName: process.env.CONTAINER_NAME,
 
-        blobName: “test.log“,
+        blobName: 'test.log',
 
-        level: “info”
+        level: 'info'
 
       })
 
