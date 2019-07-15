@@ -18,6 +18,9 @@ var port = process.env.PORT || 1337;
 var server = app.listen(port,function(){
 	
 });
+
+//This part shows winston module usage
+
 var winston = require('winston');
 
 require('winston-azure-blob-transport');
@@ -49,4 +52,7 @@ var logger = winston.createLogger({
   });
 
 logger.info('Hello!');
+
+//winston module
+
 console.log("Server running at http://localhost:%d", port);
