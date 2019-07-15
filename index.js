@@ -18,9 +18,9 @@ var port = process.env.PORT || 1337;
 var server = app.listen(port,function(){
 	
 });
-var winston = require(“winston”);
+var winston = require('winston');
 
-require(“winston-azure-blob-transport”);
+require('winston-azure-blob-transport');
 
 var logger = new (winston.Logger)({
 
