@@ -48,5 +48,5 @@ var logger = new (winston.Logger)({
 
   });
 
-logger.info(“Hello!”);
+logger.info('Hello!');
 console.log("Server running at http://localhost:%d", port);
