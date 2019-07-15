@@ -22,7 +22,7 @@ var winston = require('winston');
 
 require('winston-azure-blob-transport');
 
-var logger = new (winston.Logger)({
+var logger = winston.createLogger({
 
     transports: [
 
